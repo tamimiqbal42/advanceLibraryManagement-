@@ -1,8 +1,8 @@
-# add_book_infromations
 from save_book_all_data import save_book_all_data
 import random
 from datetime import datetime
 
+# add_book_infromations
 
 def add_book_infromations (book_list):
     titel = input('Enter Book Titel Name: ')
@@ -13,7 +13,7 @@ def add_book_infromations (book_list):
     quantity = input('Enter Book Quantity: ')
     
     isbn = random.randint(10000, 99999)
-    bookAddedAt = datetime.now().strftime("%d/%m/%Y, %H:%M:%S")
+    bookAddedAt = datetime.now().strftime("%d/%m/%Y, %H:%M")
 
     book_all_data ={
         'titel': titel,

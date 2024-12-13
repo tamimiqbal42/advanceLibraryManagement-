@@ -1,7 +1,6 @@
 # book_update
 from save_book_all_data import save_book_all_data
 
-
 def book_update (book_list):
     print(' 1. You can update book infromations one click :( ISBN Number)')
     print('or')
